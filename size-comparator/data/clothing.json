@@ -1,0 +1,162 @@
+{
+    "nike": {
+        "men": {
+            "warning": "Ropa Nike puede ser ligeramente ajustada tipo athletic fit.",
+            "sizes": [
+                {"us": "S", "uk": "S", "eu": "S", "br": "P", "py": "P", "cm": 96, "chest": 96, "waist": 81, "hips": 89},
+                {"us": "M", "uk": "M", "eu": "M", "br": "M", "py": "M", "cm": 104, "chest": 104, "waist": 89, "hips": 97},
+                {"us": "L", "uk": "L", "eu": "L", "br": "G", "py": "G", "cm": 112, "chest": 112, "waist": 97, "hips": 105},
+                {"us": "XL", "uk": "XL", "eu": "XL", "br": "GG", "py": "XG", "cm": 124, "chest": 124, "waist": 109, "hips": 113},
+                {"us": "2XL", "uk": "2XL", "eu": "2XL", "br": "3G", "py": "2XG", "cm": 132, "chest": 132, "waist": 117, "hips": 125},
+                {"us": "3XL", "uk": "3XL", "eu": "3XL", "br": "4G", "py": "3XG", "cm": 140, "chest": 140, "waist": 125, "hips": 137}
+            ]
+        },
+        "women": {
+            "warning": "",
+            "sizes": [
+                {"us": "XS", "uk": "XS", "eu": "XS", "br": "PP", "py": "PP", "cm": 83, "chest": 83, "waist": 67, "hips": 91},
+                {"us": "S", "uk": "S", "eu": "S", "br": "P", "py": "P", "cm": 88, "chest": 88, "waist": 72, "hips": 96},
+                {"us": "M", "uk": "M", "eu": "M", "br": "M", "py": "M", "cm": 93, "chest": 93, "waist": 77, "hips": 101},
+                {"us": "L", "uk": "L", "eu": "L", "br": "G", "py": "G", "cm": 99, "chest": 99, "waist": 83, "hips": 107},
+                {"us": "XL", "uk": "XL", "eu": "XL", "br": "GG", "py": "XG", "cm": 108, "chest": 108, "waist": 91, "hips": 119}
+            ]
+        },
+        "kids": {
+            "warning": "Tallas infantiles de Nike.",
+            "sizes": [
+                {"us": "2XS", "uk": "2XS", "eu": "6A", "br": "2P", "py": "2P", "cm": 62, "chest": 62, "waist": 52, "hips": 64},
+                {"us": "XS", "uk": "XS", "eu": "8A", "br": "4P", "py": "4P", "cm": 68, "chest": 68, "waist": 56, "hips": 70},
+                {"us": "S", "uk": "S", "eu": "10A", "br": "6P", "py": "6P", "cm": 74, "chest": 74, "waist": 60, "hips": 76},
+                {"us": "M", "uk": "M", "eu": "12A", "br": "8P", "py": "8P", "cm": 80, "chest": 80, "waist": 64, "hips": 82}
+            ]
+        }
+    },
+    "adidas": {
+        "men": {
+            "warning": "Ajuste regular, talles internacionales estandarizados.",
+            "sizes": [
+                {"us": "S", "uk": "S", "eu": "S", "br": "P", "py": "P", "cm": 94, "chest": 94, "waist": 82, "hips": 92},
+                {"us": "M", "uk": "M", "eu": "M", "br": "M", "py": "M", "cm": 102, "chest": 102, "waist": 88, "hips": 100},
+                {"us": "L", "uk": "L", "eu": "L", "br": "G", "py": "G", "cm": 110, "chest": 110, "waist": 96, "hips": 108},
+                {"us": "XL", "uk": "XL", "eu": "XL", "br": "GG", "py": "XG", "cm": 118, "chest": 118, "waist": 104, "hips": 116},
+                {"us": "2XL", "uk": "2XL", "eu": "2XL", "br": "3G", "py": "2XG", "cm": 126, "chest": 126, "waist": 112, "hips": 124},
+                {"us": "3XL", "uk": "3XL", "eu": "3XL", "br": "4G", "py": "3XG", "cm": 134, "chest": 134, "waist": 120, "hips": 132}
+            ]
+        },
+        "women": {
+            "warning": "",
+            "sizes": [
+                {"us": "XS", "uk": "XS", "eu": "34", "br": "PP", "py": "PP", "cm": 82, "chest": 82, "waist": 66, "hips": 92},
+                {"us": "S", "uk": "S", "eu": "36", "br": "P", "py": "P", "cm": 87, "chest": 87, "waist": 71, "hips": 97},
+                {"us": "M", "uk": "M", "eu": "38", "br": "M", "py": "M", "cm": 92, "chest": 92, "waist": 76, "hips": 102},
+                {"us": "L", "uk": "L", "eu": "40", "br": "G", "py": "G", "cm": 97, "chest": 97, "waist": 81, "hips": 107},
+                {"us": "XL", "uk": "XL", "eu": "42", "br": "GG", "py": "XG", "cm": 104, "chest": 104, "waist": 88, "hips": 115}
+            ]
+        },
+        "kids": {
+            "warning": "Tallas infantiles de Adidas.",
+            "sizes": [
+                {"us": "2XS", "uk": "2XS", "eu": "110", "br": "2P", "py": "2P", "cm": 62, "chest": 62, "waist": 52, "hips": 64},
+                {"us": "XS", "uk": "XS", "eu": "116", "br": "4P", "py": "4P", "cm": 68, "chest": 68, "waist": 56, "hips": 70},
+                {"us": "S", "uk": "S", "eu": "128", "br": "6P", "py": "6P", "cm": 74, "chest": 74, "waist": 60, "hips": 76},
+                {"us": "M", "uk": "M", "eu": "140", "br": "8P", "py": "8P", "cm": 80, "chest": 80, "waist": 64, "hips": 82}
+            ]
+        }
+    },
+    "vans": {
+        "men": {
+            "warning": "Vans apparel suele tener un ajuste más holgado tipo skater.",
+            "sizes": [
+                {"us": "S", "uk": "S", "eu": "S", "br": "P", "py": "P", "cm": 96, "chest": 96, "waist": 76, "hips": 91},
+                {"us": "M", "uk": "M", "eu": "M", "br": "M", "py": "M", "cm": 102, "chest": 102, "waist": 81, "hips": 97},
+                {"us": "L", "uk": "L", "eu": "L", "br": "G", "py": "G", "cm": 107, "chest": 107, "waist": 86, "hips": 102},
+                {"us": "XL", "uk": "XL", "eu": "XL", "br": "GG", "py": "XG", "cm": 112, "chest": 112, "waist": 91, "hips": 107},
+                {"us": "2XL", "uk": "2XL", "eu": "2XL", "br": "3G", "py": "2XG", "cm": 120, "chest": 120, "waist": 99, "hips": 115},
+                {"us": "3XL", "uk": "3XL", "eu": "3XL", "br": "4G", "py": "3XG", "cm": 128, "chest": 128, "waist": 107, "hips": 123}
+            ]
+        },
+        "women": {
+            "warning": "",
+            "sizes": [
+                {"us": "XS", "uk": "XS", "eu": "XS", "br": "PP", "py": "PP", "cm": 81, "chest": 81, "waist": 64, "hips": 89},
+                {"us": "S", "uk": "S", "eu": "S", "br": "P", "py": "P", "cm": 86, "chest": 86, "waist": 69, "hips": 94},
+                {"us": "M", "uk": "M", "eu": "M", "br": "M", "py": "M", "cm": 91, "chest": 91, "waist": 74, "hips": 99},
+                {"us": "L", "uk": "L", "eu": "L", "br": "G", "py": "G", "cm": 97, "chest": 97, "waist": 79, "hips": 104},
+                {"us": "XL", "uk": "XL", "eu": "XL", "br": "GG", "py": "XG", "cm": 106, "chest": 106, "waist": 87, "hips": 114}
+            ]
+        },
+        "kids": {
+            "warning": "Tallas infantiles de Vans.",
+            "sizes": [
+                {"us": "2XS", "uk": "2XS", "eu": "XS", "br": "2P", "py": "2P", "cm": 62, "chest": 62, "waist": 52, "hips": 64},
+                {"us": "XS", "uk": "XS", "eu": "S", "br": "4P", "py": "4P", "cm": 68, "chest": 68, "waist": 56, "hips": 70},
+                {"us": "S", "uk": "S", "eu": "M", "br": "6P", "py": "6P", "cm": 74, "chest": 74, "waist": 60, "hips": 76},
+                {"us": "M", "uk": "M", "eu": "L", "br": "8P", "py": "8P", "cm": 80, "chest": 80, "waist": 64, "hips": 82}
+            ]
+        }
+    },
+    "reebok": {
+        "men": {
+            "warning": "",
+            "sizes": [
+                {"us": "S", "uk": "S", "eu": "S", "br": "P", "py": "P", "cm": 95, "chest": 95, "waist": 80, "hips": 94},
+                {"us": "M", "uk": "M", "eu": "M", "br": "M", "py": "M", "cm": 102, "chest": 102, "waist": 88, "hips": 102},
+                {"us": "L", "uk": "L", "eu": "L", "br": "G", "py": "G", "cm": 110, "chest": 110, "waist": 96, "hips": 110},
+                {"us": "XL", "uk": "XL", "eu": "XL", "br": "GG", "py": "XG", "cm": 118, "chest": 118, "waist": 104, "hips": 118},
+                {"us": "2XL", "uk": "2XL", "eu": "2XL", "br": "3G", "py": "2XG", "cm": 126, "chest": 126, "waist": 112, "hips": 126},
+                {"us": "3XL", "uk": "3XL", "eu": "3XL", "br": "4G", "py": "3XG", "cm": 134, "chest": 134, "waist": 120, "hips": 135}
+            ]
+        },
+        "women": {
+            "warning": "",
+            "sizes": [
+                {"us": "XS", "uk": "XS", "eu": "XS", "br": "PP", "py": "PP", "cm": 82, "chest": 82, "waist": 65, "hips": 90},
+                {"us": "S", "uk": "S", "eu": "S", "br": "P", "py": "P", "cm": 88, "chest": 88, "waist": 71, "hips": 96},
+                {"us": "M", "uk": "M", "eu": "M", "br": "M", "py": "M", "cm": 94, "chest": 94, "waist": 77, "hips": 102},
+                {"us": "L", "uk": "L", "eu": "L", "br": "G", "py": "G", "cm": 100, "chest": 100, "waist": 83, "hips": 108},
+                {"us": "XL", "uk": "XL", "eu": "XL", "br": "GG", "py": "XG", "cm": 108, "chest": 108, "waist": 91, "hips": 117}
+            ]
+        },
+        "kids": {
+            "warning": "Tallas infantiles de Reebok.",
+            "sizes": [
+                {"us": "2XS", "uk": "2XS", "eu": "XS", "br": "2P", "py": "2P", "cm": 62, "chest": 62, "waist": 52, "hips": 64},
+                {"us": "XS", "uk": "XS", "eu": "S", "br": "4P", "py": "4P", "cm": 68, "chest": 68, "waist": 56, "hips": 70},
+                {"us": "S", "uk": "S", "eu": "M", "br": "6P", "py": "6P", "cm": 74, "chest": 74, "waist": 60, "hips": 76},
+                {"us": "M", "uk": "M", "eu": "L", "br": "8P", "py": "8P", "cm": 80, "chest": 80, "waist": 64, "hips": 82}
+            ]
+        }
+    },
+    "361 Degrees": {
+        "men": {
+            "warning": "",
+            "sizes": [
+                {"us": "S", "uk": "S", "eu": "S", "br": "P", "py": "P", "cm": 94, "chest": 94, "waist": 80, "hips": 92},
+                {"us": "M", "uk": "M", "eu": "M", "br": "M", "py": "M", "cm": 100, "chest": 100, "waist": 86, "hips": 98},
+                {"us": "L", "uk": "L", "eu": "L", "br": "G", "py": "G", "cm": 106, "chest": 106, "waist": 92, "hips": 104},
+                {"us": "XL", "uk": "XL", "eu": "XL", "br": "GG", "py": "XG", "cm": 112, "chest": 112, "waist": 98, "hips": 110},
+                {"us": "2XL", "uk": "2XL", "eu": "2XL", "br": "3G", "py": "2XG", "cm": 120, "chest": 120, "waist": 106, "hips": 118},
+                {"us": "3XL", "uk": "3XL", "eu": "3XL", "br": "4G", "py": "3XG", "cm": 128, "chest": 128, "waist": 114, "hips": 126}
+            ]
+        },
+        "women": {
+            "warning": "",
+            "sizes": [
+                {"us": "XS", "uk": "XS", "eu": "XS", "br": "PP", "py": "PP", "cm": 80, "chest": 80, "waist": 64, "hips": 88},
+                {"us": "S", "uk": "S", "eu": "S", "br": "P", "py": "P", "cm": 84, "chest": 84, "waist": 68, "hips": 92},
+                {"us": "M", "uk": "M", "eu": "M", "br": "M", "py": "M", "cm": 88, "chest": 88, "waist": 72, "hips": 96},
+                {"us": "L", "uk": "L", "eu": "L", "br": "G", "py": "G", "cm": 92, "chest": 92, "waist": 76, "hips": 100},
+                {"us": "XL", "uk": "XL", "eu": "XL", "br": "GG", "py": "XG", "cm": 100, "chest": 100, "waist": 84, "hips": 108}
+            ]
+        },
+        "kids": {
+            "warning": "Tallas infantiles de 361 Degrees.",
+            "sizes": [
+                {"us": "2XS", "uk": "2XS", "eu": "XS", "br": "2P", "py": "2P", "cm": 62, "chest": 62, "waist": 52, "hips": 64},
+                {"us": "XS", "uk": "XS", "eu": "S", "br": "4P", "py": "4P", "cm": 68, "chest": 68, "waist": 56, "hips": 70},
+                {"us": "S", "uk": "S", "eu": "M", "br": "6P", "py": "6P", "cm": 74, "chest": 74, "waist": 60, "hips": 76},
+                {"us": "M", "uk": "M", "eu": "L", "br": "8P", "py": "8P", "cm": 80, "chest": 80, "waist": 64, "hips": 82}
+            ]
+        }
+    }
+}

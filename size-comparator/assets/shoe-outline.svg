@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Shoe Outline -->
+    <path d="M 50,150 L 350,150 C 350,150 380,120 350,90 C 280,30 200,60 150,60 C 100,60 50,110 50,150 Z" 
+          fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Measurement lines -->
+    <!-- Length (Heel to Toe) -->
+    <line x1="50" y1="170" x2="350" y2="170" stroke="currentColor" stroke-width="2" stroke-dasharray="5,5" class="measure-line" id="line-length"/>
+    <text x="200" y="190" fill="currentColor" text-anchor="middle" font-size="14">Largo del pie (CM)</text>
+
+    <!-- Heel indicator -->
+    <path d="M 50,150 C 30,150 30,110 50,110" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4,4" class="measure-line" id="line-heel"/>
+    
+    <!-- Width indicator (instep) -->
+    <path d="M 150,60 C 150,30 200,30 200,60" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4,4" class="measure-line" id="line-width"/>
+</svg>

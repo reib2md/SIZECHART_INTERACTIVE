@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPARADOR DE TALLES – METASPORTS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>COMPARADOR DE TALLES</h1>
+            <p>Encuentra tu talla exacta comparando entre las mejores marcas deportivas del mercado.</p>
+        </div>
+    </header>
+
+    <main class="main-content container">
+        <div class="grid-layout">
+            <!-- Sidebar Controls -->
+            <aside class="controls-panel card glass-panel">
+                <h2>Buscar Talla</h2>
+                
+                <div class="form-group">
+                    <label for="productSelect">¿Qué buscas?</label>
+                    <select id="productSelect">
+                        <option value="shoes">Calzado</option>
+                        <option value="clothing">Ropa</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="categorySelect">Género</label>
+                    <select id="categorySelect">
+                        <option value="men">Hombre</option>
+                        <option value="women">Mujer</option>
+                        <option value="kids">Niños</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="brandSelect">Marca</label>
+                    <select id="brandSelect">
+                        <option value="" disabled selected>Selecciona una marca</option>
+                        <!-- Opciones dinámicas -->
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Opciones de Búsqueda</label>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="searchMode" value="size" checked>
+                            Por Talle
+                        </label>
+                        <label>
+                            <input type="radio" name="searchMode" value="measurement">
+                            Por Medida (CM)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group" id="sizeInputGroup">
+                    <label for="sizeSelect">Talle (US)</label>
+                    <select id="sizeSelect" disabled>
+                        <option value="" disabled selected>Selecciona un talle</option>
+                    </select>
+                </div>
+
+                <div class="form-group hidden" id="measureInputGroup">
+                    <label for="measureInput">Medida (CM)</label>
+                    <input type="number" id="measureInput" placeholder="Ej: 27" step="0.5" min="10" max="40">
+                </div>
+
+                <button id="compareBtn" class="btn-primary" disabled>VER EQUIVALENCIAS</button>
+            </aside>
+
+            <!-- Main Results Area -->
+            <section class="results-panel">
+                <!-- Visualizer -->
+                <div class="visualizer-card card glass-panel">
+                    <h3>Visualizador de Medidas</h3>
+                    <div class="svg-container" id="svgContainer">
+                        <!-- SVG Outline injectado dinámicamente -->
+                    </div>
+                    <div id="brandWarning" class="warning-banner hidden">
+                        <!-- Mensaje de advertencia sobre ajuste -->
+                    </div>
+                </div>
+
+                <!-- Comparison Table -->
+                <div class="table-card card glass-panel">
+                    <h3>Equivalencias</h3>
+                    <div class="table-container">
+                        <table id="resultsTable" class="hidden">
+                            <thead>
+                                <tr>
+                                    <th>Marca</th>
+                                    <th>US</th>
+                                    <th>UK</th>
+                                    <th>EU</th>
+                                    <th>BR</th>
+                                    <th>PY</th>
+                                    <th>CM</th>
+                                </tr>
+                            </thead>
+                            <tbody id="resultsBody">
+                                <!-- Resultados dinámicos -->
+                            </tbody>
+                        </table>
+                        <div id="emptyState" class="empty-state">
+                            <p>Selecciona las opciones y haz clic en "Comparar" para ver los resultados.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Size Comparator - Sports Brands</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<svg viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Head -->
+    <circle cx="100" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="4"/>
+    <!-- Torso -->
+    <path d="M 70,80 L 130,80 L 120,200 L 80,200 Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/>
+    <!-- Arms -->
+    <path d="M 70,80 L 30,150 M 130,80 L 170,150" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs -->
+    <path d="M 80,200 L 70,350 M 120,200 L 130,350" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Measurement Lines -->
+    <!-- Chest -->
+    <line x1="60" y1="110" x2="140" y2="110" stroke="currentColor" stroke-width="2" stroke-dasharray="4,4" class="measure-line" id="line-chest"/>
+    <text x="160" y="115" fill="currentColor" font-size="12">Pecho</text>
+    
+    <!-- Waist -->
+    <line x1="75" y1="160" x2="125" y2="160" stroke="currentColor" stroke-width="2" stroke-dasharray="4,4" class="measure-line" id="line-waist"/>
+    <text x="150" y="165" fill="currentColor" font-size="12">Cintura</text>
+
+    <!-- Hips -->
+    <line x1="70" y1="200" x2="130" y2="200" stroke="currentColor" stroke-width="2" stroke-dasharray="4,4" class="measure-line" id="line-hips"/>
+    <text x="155" y="205" fill="currentColor" font-size="12">Cadera</text>
+</svg>
